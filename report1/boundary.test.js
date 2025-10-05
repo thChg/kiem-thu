@@ -1,4 +1,4 @@
-const { classifyMbi } = require("./function");
+const { classifyMbi } = require("../function");
 
 describe("Testing classifyMbi using boundary", () => {
   test("ID1:height = 1.7, weight = 55 → Normal", () => {

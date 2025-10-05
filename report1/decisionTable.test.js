@@ -1,4 +1,4 @@
-const { classifyMbi } = require("./function");
+const { classifyMbi } = require("../function");
 
 describe("Testing classifyMbi using decision table", () => {
   test("ID1: height = 0.5, weight = 20 → Invalid input", () => {
